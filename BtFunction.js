@@ -145,6 +145,18 @@ console.log("chu vi hình tròn có bán kính n2 = "+ n2 + " là " + chuVichHT(
 console.log("diện tích hình tròn có bán kính n1 = "+ n1 + " là " + dienTichHT(n1));
 console.log("diện tích hình tròn có bán kính n2 = "+ n2 + " là " + dienTichHT(n2));
 
+// chuỗi
+
+// 1 
+var s1 = "tên";
+var s2 = "trương";
+var s3 = "minh";
+var s4 = "toàn"
+var s5 ="pk02088";
+
+function noiChuoi()
+
+
 
 
 
