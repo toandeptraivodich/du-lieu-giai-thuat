@@ -13,3 +13,28 @@ console.log(soThich);
 soThich[1] = "BÓNG CHUYỀN"
 console.log(soThich)
 // bài 7
+soThich.splice(1, 2)
+console.log(soThich)
+// bài 8
+function getLessThan(n){
+    let mang=[]
+    for(let i=0 ; i<n; i++){
+        mang.push(i)
+    }
+    return mang ;
+}
+// bài 9
+// console.log(getLessThan(10));
+
+// bài 10
+function getOddlessThan(n){
+    let mang =[];
+    for(let i =0 ;i<n ;i++){
+        if(i%2 != 0){
+            mang.push(i)
+        }
+    }
+    return mang;
+}
+// bài11
+console.log(getOddlessThan(10));
